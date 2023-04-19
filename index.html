@@ -1,41 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-  
-    <div class="container">
-    <div class="particulas">
-    <span style="--i:11;"></span>
-    <span style="--i:12;"></span>
-    <span style="--i:24;"></span>
-    <span style="--i:10;"></span>
-    <span style="--i:14;"></span>
-    <span style="--i:23;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:16;"></span>
-    <span style="--i:19;"></span>
-    <span style="--i:20;"></span>
-    <span style="--i:22;"></span>
-    <span style="--i:25;"></span>
-    <span style="--i:18;"></span>
-    <span style="--i:21;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:15;"></span>
-    <span style="--i:26;"></span>
-    <span style="--i:17;"></span>
-    <span style="--i:13;"></span>
-    <span style="--i:28;"></span>
-    </div>
-    </div>
-  </body>
+<html>
+<head>
+	<title>Titulo de la pagina</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+        <li><a href="#">Introduccion Web</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">JS</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section>
+			<h1>Introduccion Web</h1>
+			<p>HTML (HyperText Markup Language) es un lenguaje de marcado utilizado para crear contenido web. Es la piedra angular de la creación de páginas web y permite definir la estructura y el contenido de una página web.
+
+      HTML utiliza etiquetas (tags) para definir diferentes elementos en una página web, como encabezados, párrafos, imágenes, formularios y enlaces. Las etiquetas se utilizan para indicar al navegador cómo presentar el contenido en la página web.
+      
+      HTML es un lenguaje de marcado simple y fácil de aprender, y es compatible con la mayoría de los navegadores web modernos. Con HTML, puedes crear páginas web desde cero o editar páginas existentes para mejorar su estructura y contenido.
+      
+      En resumen, HTML es una herramienta fundamental para cualquier desarrollador web, ya que permite crear páginas web eficientes y bien estructuradas que se pueden mostrar en cualquier navegador web.</p>
+		</section>
+    <section>
+    <h1>HTML  </h1>
+    <H2>Componentes Principales</H2>
+    <ul><li><a href="">Etiqueta HTML <p></p></a>indica al navegador que el documento es una página web y especifica la versión de HTML que se está utilizando.
+
+    </li></ul>
+    <ul><li><a href="">Encabezado de la página (head) <p></p></a>contiene información importante sobre la página, como el título de la página, la descripción, las palabras clave y el enlace a la hoja de estilos CSS. No se muestra en la página web.
+
+    </li></ul>
+    <ul><li><a href="">Cuerpo de la página (body) <p></p></a>contiene el contenido principal de la página, como texto, imágenes, videos, enlaces y otros elementos. Todo lo que se ve en la página web se encuentra en el cuerpo.
+
+    </li></ul>
+    <ul><li><a href="">Encabezados (headers) <p></p></a>se utilizan para dividir el contenido de la página en secciones y proporcionar una estructura jerárquica. Los encabezados van desde h1 (el más importante) hasta h6 (el menos importante).
+
+    </li></ul>
+    <ul><li><a href="">Párrafos (paragraphs) <p></p></a> se utilizan para escribir texto y dividir el contenido de la página en bloques de texto.
+
+    </li></ul>
+    </section>
+    <section>
+    <h1>CSS</h1>
+    <H2>Funciones Principales</H2>
+    <ul>
+    <li>Font-family <p>Define la familia tipográfica. Tenemos 3 opciones para definir la elección de la familia tipográfica:</p></li>
+    </ul>
+    <li>Font-size<p>Define el tamaño de la fuente y el valor se puede escribir en pixels o rems.</p></li>
+    <li>Color y background-color<p>Color define el color de la tipografía y background-color, el color de fondo de un elemento. Los colores se pueden escribir de varias formas</p></li>
+    <li>Width<p>efine el ancho de un elemento, el valor se puede escribir en pixels, rems o porcentaje. Las etiquetas de bloque tienen por defecto un width de 100%.</p></li>
+    <li>Max-width o min-width<p>Definen el ancho máximo o mínimo de un elemento. Muy importante para adaptar el sitio a los diferentes tamaños de pantalla</p></li>
+    <li>Padding<p>Es la distancia desde el borde de un elemento hasta su contenido. Esta propiedad es imprescindible si la caja tiene color de fondo o borde</p></li>
+    <li>Margin<p></p>Es la distancia entre un elemento y otro (desde el borde de un elemento hacia afuera). Muchas etiquetas HTML tienen margin por defecto por ejemplo: el body, los encabezados, los párrafos y las listas.</li>
+    <li>Border<p></p>Define el borde de un elemento, su color, su estilo y grosor.</li>
+
+    </section>
+    <section><H1>JS</H1>
+    
+    <h3>Funciones principales </h3>
+    <ul>
+    <li>1. String.split()
+    Divide una cadena en un arreglo de subcadenas de la cadena original a partir de un carácter separador:
+    
+    let cadena = "Hola,mundo,JavaScript";cadena.split(“,”);</li>
+    <li>2. String.substring()
+    Extrae caracteres desde un índice A hasta un índice B sin incluirlo:
+    
+    let cadena = "Hola";cadena.substring(0,3);</li>
+    <li>3. String.trim()
+    Elimina espacios en blanco al inicio y al final de una cadena:
+    
+    let cadena = " Hola ";cadena.trim();
+    
+    4. Array.map()
+    Crea un arreglo nuevo con los resultados de la función enviada como parámetro:
+    
+    let numbers = [2, 4, 8, 16];let halves= numbers.map(function(x) { return x / 2;});</li>
+    <li>5. Array.push()
+    Agrega elementos al final de un arreglo y regresa la longitud del arreglo con los nuevos elementos:
+    
+    const things = ['dish', 'computer', 'dog'];const count = things.push('bed');</li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    </ul>
+    </section>
+	</main>
+
+	<footer>
+		<p>Derechos reservados &copy; 2023</p>
+	</footer>
+</body>
 </html>
