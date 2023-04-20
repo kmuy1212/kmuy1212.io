@@ -13,13 +13,22 @@
 body{
   min-height: 100vh;
   background: var(--crl);
+  
 
 
 
 }
 
+section{
+  padding: 30px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 header{
-  top: 50px;
+  top: 35px;
   display: flex;
   justify-content: center;
   align-items: center;
