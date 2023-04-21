@@ -11,7 +11,7 @@
 }
 
 body{
-  min-height: 100vh;
+ 
   background: var(--crl);
   
 
@@ -33,20 +33,20 @@ header{
   justify-content: center;
   align-items: center;
   border: 1px solid blue;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .navegacion{
 
   position: relative;
-  width: 900px;
+  width: 1220px;
   height: 120px;
 background: #fff;
 display: flex;
-justify-content: center;
+justify-content: space-between;
 align-items: center;
 border-radius: 10px;
-
+ 
 
 }
 
@@ -54,7 +54,9 @@ border-radius: 10px;
 .navegacion ul{
 
   display: flex;
-  width: 600px;
+  width: 1000px;
+  left: 100px;
+  margin-left: 100px;
 }
 .navegacion ul li{
   position: relative;
@@ -108,7 +110,7 @@ border-radius: 10px;
 
 .indicador{
   position: absolute;
-  left: 22%;
+  left: 12.3%;
   top: -30%;
   width: 80px;
   height: 85px;
@@ -148,22 +150,22 @@ border-radius: 10px;
 }
 
 .navegacion ul li:nth-child(2).activo ~ .indicador{
-  transform:translateX(calc(90px * 1)) ;
+  transform:translateX(calc(99px * 1)) ;
 }
 
 .navegacion ul li:nth-child(3).activo ~ .indicador{
-  transform:translateX(calc(61px * 3)) ;
+  transform:translateX(calc(67px * 3)) ;
 }
 
 .navegacion ul li:nth-child(4).activo ~ .indicador{
-  transform:translateX(calc(69.5px * 4)) ;
+  transform:translateX(calc(75px * 4)) ;
 }
 
 
 .navegacion ul li:nth-child(5).activo ~ .indicador{
-  transform:translateX(calc(74px * 5)) ;
+  transform:translateX(calc(80px * 5)) ;
 }
 
 .navegacion ul li:nth-child(6).activo ~ .indicador{
-  transform:translateX(calc(77px * 6)) ;
+  transform:translateX(calc(83.5px * 6)) ;
 }
